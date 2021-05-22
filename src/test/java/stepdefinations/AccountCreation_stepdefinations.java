@@ -9,7 +9,7 @@ import testbase.TestBase;
 
 public class AccountCreation_stepdefinations extends TestBase {
 	
-	//example
+	//Object Creation
 	AccountCreationPage acc_creation = new AccountCreationPage(driver) ;
 	
 	@Given("^User is in home page$")
