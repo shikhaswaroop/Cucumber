@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12552" started-at="2021-05-10T11:30:07Z" finished-at="2021-05-10T11:30:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12552" started-at="2021-05-10T11:30:07Z" finished-at="2021-05-10T11:30:20Z">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="testlauchURL()[pri:0, instance:test.LoginTest@158da8e]" name="testlauchURL" is-config="true" duration-ms="7388" started-at="2021-05-10T17:00:07Z" finished-at="2021-05-10T17:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlauchURL -->
+        <test-method status="PASS" signature="verifyLogin_invalidcredentials(java.lang.String, java.lang.String)[pri:1, instance:test.LoginTest@158da8e]" name="verifyLogin_invalidcredentials" duration-ms="3958" started-at="2021-05-10T17:00:15Z" data-provider="invaliddataProvider" finished-at="2021-05-10T17:00:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr322967]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ysAhadE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin_invalidcredentials -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:test.LoginTest@158da8e]" name="closebrowser" is-config="true" duration-ms="1184" started-at="2021-05-10T17:00:19Z" finished-at="2021-05-10T17:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
